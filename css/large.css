@@ -1,0 +1,65 @@
+@media only screen and (min-width: 1300px) {
+
+    /* Header */
+    
+    .mainHeader {
+        background-color: rgb(43, 41, 41);
+        height: 90px;
+        
+    }
+    .nav_Main {
+        height: 90px;
+        width: 100%;
+        
+    }
+    nav > ul {
+        display: flex;
+        list-style-type: none;
+        overflow: hidden;
+        float: left;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        padding-left: 200px;
+
+    }
+    nav > ul >li a {
+        text-decoration: none;
+        color: white;
+        padding-right: 30px;
+        
+        
+    
+    }
+    .headerImage {
+        display: flex;
+        float: right;
+        height: 90px;
+        padding-right: 200px;
+
+    
+    }  
+
+    /* Footer */
+
+    #footernav {
+        font-size: 11px;
+        height: 90px;
+    }
+    #footerImage {
+        padding-right: 200px;
+        height: 90px;
+    }
+   
+    
+    #footernav > ul {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* main / aside */
+        
+    #mainImage {
+        height: 350px;
+    }    
+   
+}

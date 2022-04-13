@@ -1,0 +1,56 @@
+@media only screen and (min-width: 725px) {
+
+    /* Header */
+
+    .nav_main > ul {
+        margin-top: 28px;
+        margin-bottom: 28px;
+        padding-left: 80px;
+        font-size: 25px;
+
+    }
+    
+  
+    /* Footer */
+
+
+    .mainFooter {
+        font-size: 12px;
+                  
+    }
+
+    #footernav {
+        height: 80px;
+    }
+    
+    #footernav > ul {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+
+    #footerImage {
+        display: flex;
+        float: right;
+        height: 80px;
+    }
+
+    /* main / aside */
+        
+    #mainImage {
+        height: 300px;
+    } 
+    .mainH1 {
+        padding-top: 25px;
+    }  
+    .mainP {
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 40px;
+    } 
+    
+    
+    
+    
+    
+    
+}

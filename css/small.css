@@ -1,0 +1,102 @@
+@media only screen and (max-width: 450px) {
+    /* Header */
+    
+    .headerImage {
+        width: 120px;
+    }
+    header {
+        font-size: 21px;
+    }
+    nav > ul {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    /* Footer */
+
+    .mainFooter {    
+        display: flex;                       
+        font-size: 9px; 
+            
+    }
+    #footernav>ul> li a {
+        padding-right: 30px;
+    }
+
+    /* main / aside */
+        
+    #mainImage {
+        height: 200px;
+        width: 100%;
+    }    
+    
+ 
+}
+@media only screen and (max-width: 360px) {
+
+    /* Header */
+
+    .headerImage {
+        display: none;
+        
+    }
+    header {
+        font-size: 31px;
+    }
+    nav > ul {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    /* Footer */
+
+    .mainFooter {
+        font-size: 6px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        bottom: 0;
+        height: 60px;
+    }
+    
+    #footernav>ul> li a {
+        padding-right: 30px;
+        
+        
+    }
+    #footerImage {
+        float: right;
+        width: 100%;
+    
+    }
+
+    #mainImage {
+        height: 200px;
+        width: 100%;
+    }   
+}
+@media only screen and (max-width: 365px) {
+    
+     /* Header */
+
+    .headerImage {
+        width: 100%;
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+        
+        
+    }
+    nav > ul > li a{
+        display: inline-block;
+        text-align: center;
+        padding-right: 10px;
+       
+    }
+
+    #mainImage {
+        height: 200px;
+        width: 100%;
+    }   
+   
+    
+
+}

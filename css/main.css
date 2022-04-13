@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body, html{    
+    background-color: #2a5558;
+    margin-left: auto;
+    margin-right: auto;
+    color: white  ;
+}
+
+/* header */
+.mainHeader {
+    background-color: rgb(43, 41, 41);
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    height: 80px;
+    
+    
+}
+.nav_Main {
+    height: 80px;
+    width: 100%;
+    
+}
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+nav > ul >li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    
+    
+
+}
+.headerImage {
+    display: flex;
+    float: right;
+    padding-right: 0px;
+    height: 80px;
+
+}
+
+/* footer */
+
+.mainFooter {
+    display: flex;
+    background-color: #2a5558;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    height: 80px;
+    padding-top: 150px;
+    
+    
+}
+
+#footernav>ul> li a {
+    padding-right: 20px;
+    
+    
+}
+#footerImage {
+    display: none;
+}
+.createA {
+    color: rgb(38, 38, 156);
+    text-decoration: underline;
+}
+
+
+/* main / aside */
+
+.mainContainer {
+    display: flex;
+    
+        
+}
+#businessLogo {
+    width: 100%;
+    height: 250px;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main {
+    color: rgb(34, 33, 33);
+}
+.mainH1 {
+    text-align: center;
+    padding-top: 40px;
+
+}
+.mainH1_2 {
+    padding-top: 20px;
+}
+.mainP {
+    
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+
+}
+#rugbySmall {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+#rugbyH2 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(34, 33, 33);
+}
+.club {
+    display: flex;
+    text-align: centre;
+
+}
+.clublogo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutH2 {
+    text-align: center;
+}
+#italic {
+    color: darkred;
+}
+
+
+
+
+
+
